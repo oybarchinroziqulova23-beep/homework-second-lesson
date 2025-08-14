@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+.container{
+    max-width: 1046px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.header-wrapper{
+    width: 1440;
+    height: 1132;
+    background: #252B42;
+
+}
+.up{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.navbar-items{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+p{
+color: grey;
+}
+    
+    
+
+.upp{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.oraliq{
+    gap: 80px;
+    display: flex;
+    align-items: center;
+}
+.top{
+    display: flex;
+    align-items: center; 
+    gap:150px;
+}
+.welcome{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    align-items: center;
+    gap: 10px;
+    padding: 40px;
+}
+
+.welcome h1{
+    width: 540px;
+    font-size: 60px;
+    text-align: center;
+}
+.welcome p{
+    width: 540px;
+    text-align: center;
+    font-size: 20px;
+}
+.button button{
+    padding: 10px;
+}
+.square{
+    width: 1050px;
+    height: 292px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.empty{
+    width: 50px;
+    height: 4px;
+    border-radius: 20px;
+    background-color: darkred;
+}
+.info{
+    width: 328px;
+    padding: 10px;
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+    background-color: beige;
+
+}
+.photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 76px;
+    border-radius: 5px;
+    background-color: darksalmon;
+}
+.photo img{
+    width: 27px;
+}
+.info1{
+    width: 1050px;
+    height: 400px;
+    display: flex;
+    gap: 30px;
+    margin-block: 165px;
+}
+.form{
+    width: 507px;
+    height: 292px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.form button{
+    background-color: white;
+    color: blue;
+    width: 101px;
+    height: 24px;
+    border: none;
+}
+.info1 img{
+    width: 343px;
+    height: 333px;
+}
+.head-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 691px;
+    height: 134px;
+}
+.head-info a{
+    text-decoration: none;
+}
+.blank-wrapper{
+    display: flex;
+    gap: 30px;
+    width: 1050px;
+    height: 660px;
+    margin-block:112px;
+}
+.blank{
+    width: 240px;
+    height: 660px;
+}
+.Course-about{
+    width: 240px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 5px;
+    
+}
+.blank img{
+    width: 240px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.Course-about button{
+    width: 141px;
+    height: 44px;
+    border-radius: 37px;
+    border-color: blue;
+    background: white;
+    color:blue
+}
+.price{
+    display: flex;
+}
+.About-teachers{
+    width: 1050px;
+    height: 380px;
+    display: flex;
+    gap: 30px;
+    margin: 97px;
+}
+.rating{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 510px;
+    height: 380px;
+}
+.rating img{
+    border-radius: 50%;
+    width: 128px;
+    height: 128px;
+}
+.rating p{
+    width: 320px;
+    height: 60px;
+    text-align: center;
+}
+.star{
+    width: 130px;
+    height: 22px;
+    display: flex;
+    gap: 5px;
+}
+.star img{
+    width: 22px;
+    height: 22px;
+}
+.headinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 10px;
+    width: 691px;
+    height: 134px;
+}
+.headinfo p{
+    text-align: center;
+}
+.headinfo a{
+    text-decoration: none;
+}
+.email{
+    display: flex;
+    margin: 0 auto;
+    width: 746px;
+    height: 58px;
+    margin-block: 50px;
+}
+.email input{
+    width: 688px;
+    height: 58px;
+    text-indent: 0.5cm;
+}
+.email button{
+    width: 117px;
+    height: 58px;
+    background-color: blue;
+    color: aliceblue;
+}
+
+footer{
+    height: 338px;
+    background: #252B42;
+}
+.all-info{
+    width: 1046px;
+    height: 178px;
+    display: flex;
+    padding: 50px;
+    gap: 30px;
+    background: #252B42;
+}
+.about1{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 238px;
+    height: 146px;
+}
+.logo{
+    width: 122px;
+    height: 24px;
+    display: flex;
+    gap: 20px;
+}
+.logo img{
+    width: 24px;
+    height: 24px;
+}
+.about2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 241px;
+    height: 178px;
+}
+.all-info h3{
+    color: white;
+}
