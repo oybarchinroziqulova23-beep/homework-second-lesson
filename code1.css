@@ -24,6 +24,13 @@
     justify-content: space-between;
     padding: 20px;
 }
+.up button{
+    width: 137px;
+    height: 52px;
+    border-radius: 20px;
+    border-color: blue;
+    color: white;
+}
 
 .navbar-items{
     display: flex;
@@ -46,6 +53,7 @@ color: grey;
     display: flex;
     align-items: center;
 }
+
 .top{
     display: flex;
     align-items: center; 
@@ -60,6 +68,9 @@ color: grey;
     gap: 10px;
     padding: 40px;
 }
+.welcome a{
+    text-decoration: none;
+}
 
 .welcome h1{
     width: 540px;
@@ -73,6 +84,8 @@ color: grey;
 }
 .button button{
     padding: 10px;
+    border-radius: 5px;
+    border-color: blue;
 }
 .square{
     width: 1050px;
@@ -163,6 +176,25 @@ color: grey;
     margin: 5px;
     
 }
+.ball-wrapper{
+    width: 199px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.ball{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 20px;
+    padding: 15px 8px;
+    background: #252B42;
+}
+.ball img{
+    width: 16px;
+    height: 16px;
+}
 .blank img{
     width: 240px;
     height: 300px;
@@ -178,8 +210,17 @@ color: grey;
     background: white;
     color:blue
 }
+.load{
+    display: flex;
+    gap: 5px;
+}
 .price{
     display: flex;
+    gap: 5px;
+}
+.clock{
+    display: flex;
+    gap: 5px;
 }
 .About-teachers{
     width: 1050px;
@@ -290,4 +331,14 @@ footer{
 }
 .all-info h3{
     color: white;
+}
+.end{
+    background-color: white;
+    height: 74px;
+}
+.finish{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
 }
